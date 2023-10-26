@@ -3,8 +3,8 @@
 import "./flash-card.css";
 
 // import LandingPage from './Components/LandingPage';
-// import Steps from './Components/Steps';
-// import { SimpleFooter } from './Components/Footer'
+import Steps from './Components/Steps';
+import { SimpleFooter } from './Components/Footer'
 import FlashCards from "./Components/FlashCard";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
       <div className="App">
         <FlashCards />
       </div>
-      {/* <Steps />
-      <SimpleFooter /> */}
+       <Steps />
+      <SimpleFooter /> 
     </>
   );
 }
